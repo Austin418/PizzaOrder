@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Austin Farwell" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content""">
+
+    <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body>
+    <form action="" method="POST"></form>
+        <fieldset>
+            <legend>User Information</legend>
+            
+            <ul style="list-style-type: none;">
+            
+                <li><label for="username">Username</label></li>
+                <li><input type="text" id="username" name="user.name"></li>
+
+                <li><label for="password">password</label></li>
+                <li><input type="password" id="password" name="user.pass"></li>
+        
+            </ul>
+        
+        </fieldset>
+        <fieldset>
+            <legend>What drink do you want?</legend>
+
+            <ul style="list-style-type: none;">
+
+                <li>
+                    <label for="coke"></label>
+                    <input type="radio" id="coke" name="user.drink">
+                    Coke
+                </li>
+
+                <li>
+                    <label for="diet"</label>
+                    <input type="radio" id="diet" name="user.drink">
+                    Diet Coke
+                </li>
+
+                <li>
+                    <label for="sprite"></label>
+                    <input type="radio" id="sprite" name="user.drink">
+                    Sprite
+                </li>
+
+                <li>
+                    <label for="water"></label>
+                    <input type="radio" id="water" name="user.drink">
+                    Water
+                </li>
+            </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Pizza Preference</legend>
+
+                <ul style="list-style-type: none;">
+
+                    <li><label for="plain"></label></li>
+                    <li><input type="checkbox" id="plain" name="user.pizza">Plain</li>
+                    
+                    <li><label for="pepperone"></label></li>
+                    <li><input type="checkbox" id="pepperone" name="user.pizza">Pepperone</li>
+                    
+                    <li><label for="chicken"></label></li>
+                    <li><input type="checkbox" id="chicken" name="user.pizza">Chicken</li>
+                    
+                    <li><label for="sausage"></label></li>
+                    <li><input type="checkbox" id="sausage" name="user.pizza">Sausage</li>
+                    
+                </ul>
+            
+            </fieldset>
+            <fieldset>
+                <legend>Special Instructions</legend>
+
+                <ul style="list-style-type: none;">
+                    
+                    <li>
+                        <label for="instructions"></label>
+                        <textarea name="user.instruct" id="instructions" cols="30" rows="10">Special Instructions</textarea>
+                    </li>
+
+                    <li><button type="submit"></button></li>
+                </ul>
+</body>
+</html>
